@@ -280,4 +280,9 @@ nav a:hover{
     font-size: 20px;
 }
 
+#accueil {
+    padding: 30px 15px;
+    min-height: auto;
+}
+
 }
