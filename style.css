@@ -162,3 +162,122 @@ nav a:hover{
         transform: translateY(0);
     }
 }
+
+#certifications {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+#certifications h2 {
+    color: var(--couleur-accent);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.carte-certification {
+    background-color: var(--couleur-carte);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.carte-certification h3 {
+    color: var(--couleur-accent);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.carte-certification p {
+    color: var(--couleur-texte);
+    line-height: 1.6;
+}
+
+.carte-certification a {
+    color: var(--couleur-accent);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carte-certification a:hover {
+    color: var(--couleur-texte);
+}
+
+
+/* Adaptation smartphones */
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 15px 20px;
+    }
+
+    nav ul {
+    gap: 12px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.competences-container {
+    grid-template-columns: 1fr;
+}
+
+#accueil h1 {
+    font-size: 32px;
+}
+
+.banniere h1 {
+    font-size: 28px;
+}
+
+.banniere h2 {
+    font-size: 22px;
+}
+
+#apropos {
+    margin: 25px 15px 40px;
+    padding: 20px;
+}
+
+#apropos h2 {
+    font-size: 26px;
+}
+
+#apropos p {
+    font-size: 16px;
+}
+
+#competences {
+    padding: 30px 15px 50px;
+}
+
+.banniere {
+    width: 100%;
+    padding: 20px 15px;
+}
+
+.banniere p {
+    font-size: 16px;
+}
+
+#certifications {
+    margin: 25px 15px;
+    padding: 20px 0;
+}
+
+.carte-certification {
+    max-width: 100%;
+    padding: 20px;
+}
+
+#certifications h2 {
+    font-size: 26px;
+}
+
+.carte-certification h3 {
+    font-size: 20px;
+}
+
+}
