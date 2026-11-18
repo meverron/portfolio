@@ -237,7 +237,7 @@ nav a:hover{
 }
 
 #apropos {
-    margin: 25px 15px 40px;
+    margin: 10px 15px 40px;
     padding: 20px;
 }
 
@@ -281,7 +281,7 @@ nav a:hover{
 }
 
 #accueil {
-    padding: 30px 15px;
+    padding: 10px 15px 0;
     min-height: auto;
 }
 
