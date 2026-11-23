@@ -301,3 +301,8 @@ nav a:hover{
     z-index: 10;
     cursor: pointer;
 }
+
+main > h1 {
+    text-align: center;
+    margin: 40px 15px 0;
+}
