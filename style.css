@@ -184,9 +184,18 @@ nav a:hover{
     background-color: var(--couleur-carte);
     padding: 25px;
     border-radius: 20px;
-    margin-bottom: 20px;
     max-width: none;
     margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+
+    transition: transform 0.3s ease;
+}
+
+.carte-certification:hover {
+    transform: translateY(-5px);
 }
 
 .carte-certification h3 {
@@ -201,13 +210,28 @@ nav a:hover{
 }
 
 .carte-certification a {
-    color: var(--couleur-accent);
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: auto;
+
+    padding: 10px 18px;
+    background-color: var(--couleur-accent);
+    color: var(--couleur-fond);
+
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
 }
 
 .carte-certification a:hover {
-    color: var(--couleur-texte);
+    background-color: var(--couleur-texte);
+    color: var(--couleur-fond);
 }
 
 
