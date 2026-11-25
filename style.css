@@ -245,11 +245,12 @@ nav a:hover{
     nav ul {
     gap: 12px;
     padding: 0;
-    flex-wrap: wrap;
+    flex-wrap: wrap;}
+
 
     #certifications {
     grid-template-columns: 1fr;
-}
+    }
 }
 
 .competences-container {
