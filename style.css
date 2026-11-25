@@ -342,6 +342,7 @@ main > h1 {
 }
 
 .boutons-accueil a {
+    display: inline-block;
     padding: 12px 24px;
     background-color: var(--couleur-accent);
     color: var(--couleur-fond);
